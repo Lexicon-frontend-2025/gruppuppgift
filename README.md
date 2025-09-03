@@ -10,7 +10,7 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produ
 ### **Ramverk & Teknologier**
 * **Next.js 15 (App Router):** Använd det senaste av Next.js för att utnyttja funktioner som Server Components och Server Actions. Se till att optimera med så mycket statiskt och server-renderat som möjligt. 
 * **TypesScript:** Använd typescript i projektet
-* **DummyJSON API:** Använd API:et `https://dummyjson.com/products` (alternativt `https://fakeapi.platzi.com/`) för att hämta produktdata.
+* **DummyJSON API:** Använd API:et `https://dummyjson.com/products` eller `https://fakeapi.platzi.com/` för att hämta produktdata. Titta igenom APIerna tillsammans och se vilka för/nackdelar de har innan ni bestämmer er.
 * **React:** Arbeta med React-komponenter, både Server och Client.
 * **Valfri styling:** Använd den stylingmetod ni är bekväma med (CSS-moduler/Tailwind CSS).
 * **Git & GitHub:** Använd Git för versionskontroll och GitHub för samarbete.
@@ -45,8 +45,10 @@ Vi lämnar ingen färdig design på detta, men ni behöver se till att allt som 
 Den preliminära planen är på 3 veckor, men ev kommer det en del 2 av arbetet som kommer då vara vecka 3-4. Detta beroende på hur arbetet går i grupperna och vad vi hinner med.
 Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje sprint fokuserar på specifika delmål. Detta är bara förslag och ni kan själva bestämma om ni vill fördela det på annat sätt.
 
+**Innan ni börjar att koda se till att allt är förberett i ert SCRUM board, att ni har valt design och beslutat vem som börjar med vad. Vi vill också att ni visar upp detta för oss lärare och får klartecken innan ni sätter igång med något mer.**
+
 #### **Övergripande arbetsflöde:**
-* **Sprintplanering:** I början av varje vecka går ni igenom veckans mål och fördelar ansvar och uppdaterar löpande er scrum board.
+* **Sprintplanering:** I början av varje vecka går ni igenom veckans mål och fördelar ansvar och uppdaterar löpande er scrum board. 
 * **Löpande arbete:** Arbeta i era egna branches, gör regelbundna `git commit`-operationer och `git push` till er branch.
 * **Kodgranskning:** I slutet av varje vecka (t.ex. fredag) presenterar ni era slutförda delmål, skapar **Pull Requests (PRs)** och granskar varandras kod (detta kan också ske löpande under veckan vid behov). När koden är godkänd mergas den in i `main`-branchen.
 * **Feedback & Justering:** Efter granskningen ger ni feedback och justerar eventuella brister innan ni påbörjar nästa sprint.
