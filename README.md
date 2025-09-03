@@ -3,12 +3,13 @@
 ---
 
 ### **Produktbeskrivning**
-Uppgiften är att bygga en **minimalistisk e-handelsplattform för elektronikprodukter** med hjälp av **Next.js 14 App Router**. Plattformen ska visa upp ett urval av produkter från ett externt API, vara fullt responsiv och ha interaktiva inslag. Dessutom ska ni bygga ett förenklat **admingränssnitt** där ni kan hantera produkter. Målet är att ni ska få praktisk erfarenhet av att arbeta med **Server Components**, **Client Components**, **statiska och dynamiska rutter**, samt hantering av asynkron data och datamutationer med **Server Actions**.
+Uppgiften är att bygga en **minimalistisk e-handelsplattform för elektronikprodukter** med hjälp av **Next.js 15 App Router**. Plattformen ska visa upp ett urval av produkter från ett externt API, vara fullt responsiv och ha interaktiva inslag. Dessutom ska ni bygga ett förenklat **admingränssnitt** där ni kan hantera produkter. Målet är att ni ska få praktisk erfarenhet av att arbeta med **Server Components**, **Client Components**, **statiska och dynamiska rutter**, samt hantering av asynkron data och datamutationer med **Server Actions**.
 
 ---
 
 ### **Ramverk & Teknologier**
-* **Next.js 14 (App Router):** Använd det senaste av Next.js för att utnyttja funktioner som Server Components och Server Actions.
+* **Next.js 15 (App Router):** Använd det senaste av Next.js för att utnyttja funktioner som Server Components och Server Actions.
+* **TypesScript:** Använd typescript i projektet
 * **DummyJSON API:** Använd API:et `https://dummyjson.com/products` för att hämta produktdata.
 * **React:** Arbeta med React-komponenter, både Server och Client.
 * **Valfri styling:** Använd den stylingmetod ni är bekväma med (t.ex. CSS-moduler, Tailwind CSS eller Styled Components).
@@ -33,12 +34,13 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform för elektronikpro
     * Om ni vill ha en extra utmaning, kan ni göra `/admin`-sidan lösenordsskyddad.
     * **Alternativ 1 (Enklast):** Använd en enkel miljövariabel och ett formulär för att autentisera, som beskrevs i tidigare kommunikation.
     * **Alternativ 2 (Avancerat):** Använd ett befintligt autentiseringsbibliotek som **Clerk**, **Kinde**, eller **Auth0** för att snabbt implementera en robust inloggningsfunktion.
+6.    **Frivilligt: Kundvagnsfunktionalitet** Använd useContext och API-endpoints för carts/user. Gör så att man kan lägga till och ta bort produkter från kundvagnen och koppla ev till inloggning om ni vill. Ni kan också göra en simulerad utcheckning om ni vill (eller kör t ex Stripe här).
 
 ---
 
 ### **Arbetsflöde & Sprintplan (4 veckor)**
 
-Denna uppgift är uppdelad i 4 sprints, en för varje vecka. Varje sprint fokuserar på specifika delmål.
+Denna uppgift är uppdelad i 4 sprints, en för varje vecka. Varje sprint fokuserar på specifika delmål. Detta är bara förslag och ni kan själva bestämma om ni vill fördela det på annat sätt.
 
 #### **Övergripande arbetsflöde:**
 * **Sprintplanering:** I början av varje vecka går ni igenom veckans mål och fördelar ansvar.
@@ -61,7 +63,7 @@ Denna uppgift är uppdelad i 4 sprints, en för varje vecka. Varje sprint fokuse
 ### **Sprint 2: Dynamisk routing & Interaktion (Vecka 2)**
 **Mål:** Bygg de dynamiska sidorna och lägg till de första interaktiva elementen.
 
-* Skapa den dynamiska rutten `app/products/[id]/page.js` för produktsidorna.
+* Skapa den dynamiska rutten `app/products/[id]/page.tsx` för produktsidorna.
 * Hämta en specifik produkts data baserat på ID och rendera detaljerad information.
 * Lägg till en **filtreringsfunktion** på startsidan med knappar (t.ex. "Smartphones" och "Laptops"). Använd en **Client Component**.
 * Lägg till "Lägg till i varukorg"-knappen på produktsidan som en **Client Component**.
@@ -71,7 +73,7 @@ Denna uppgift är uppdelad i 4 sprints, en för varje vecka. Varje sprint fokuse
 ### **Sprint 3: Skapa & Ta bort produkter (Vecka 3)**
 **Mål:** Implementera grundläggande CRUD-funktioner.
 
-* Skapa en ny rutt, t.ex. `app/admin/page.js`, för admingränssnittet.
+* Skapa en ny rutt, t.ex. `app/admin/page.tsx`, för admingränssnittet.
 * **Read (Läs):** På adminvyn, visa en lista över alla produkter.
 * **Create (Skapa):** Skapa ett formulär för att lägga till en ny produkt (titel, beskrivning, pris, etc.). Använd en **Server Action** för att hantera formulärdata och "skapa" produkten genom att logga den till konsolen.
 * **Delete (Ta bort):** Lägg till en "Ta bort"-knapp vid varje produkt i adminvyn. Använd en **Server Action** för att hantera raderingen.
@@ -85,4 +87,3 @@ Denna uppgift är uppdelad i 4 sprints, en för varje vecka. Varje sprint fokuse
 * **Update (Uppdatera):** Lägg till en "Redigera"-knapp vid varje produkt. Denna ska leda till ett formulär som fylls i med den befintliga produktens data och som låter er uppdatera den. Använd en **Server Action** för att hantera uppdateringen.
 * **Refaktorera** koden för att göra den mer läsbar, återanvändbar och effektiv.
 * Se över hela applikationens responsivitet och design för en sista puts.
-* Skriv en kort **README.md**-fil och förbered den sista presentationen där ni demonstrerar hela projektet.
