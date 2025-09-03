@@ -21,11 +21,11 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produ
 
 ### **Funktionalitetskrav**
 1.  **Startsida, Om oss, Kontakt:**
-    * På startsidan - Visa en översikt av samtliga produkter. Hämta och rendera produktdata på serversidan.
+    * På startsidan - Visa en översikt av samtliga produkter. Hämta och rendera produktdata på serversidan. Den första produkten på sidan ska ha avvikande design och vara större än de andra t ex spänna över två kolumner/rader. Det ska också finnas en Hero med en CTA högst upp på sidan.
     * Om Oss - Gör en Lorem-text eller skriv ihop något bara för att ha något där samt en bild.
     * Kontakt - Ett tomt formulär med lämpliga labels osv (funktionalitet för detta är frivilligt)
 2.  **Produktsida:**
-    * Skapa en dynamisk route (`/products/[id]`) som visar detaljerad information för en specifik produkt baserat på dess ID.
+    * Skapa en dynamisk route (`/products/[id]`) som visar detaljerad information för en specifik produkt baserat på dess ID. Ni behöver inte ha all info som finns i API här, men titel, beskrivning, bild och pris är minsta kraven.
     * Hämta enskild produktdetalj från API:et och rendera på serversidan.
 3.  **Interaktiva element (Client Components):**
     * Lägg till en knapp för att **filtrera produkter** efter en kategori.
@@ -39,7 +39,7 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produ
     * **Alternativ 2 (Avancerat):** Använd ett befintligt autentiseringsbibliotek som **Clerk**, **Kinde**, eller **Auth0** för att snabbt implementera en robust inloggningsfunktion.
 6.    **Frivilligt: Kundvagnsfunktionalitet** Använd useContext och API-endpoints för carts/user. Gör så att man kan lägga till och ta bort produkter från kundvagnen och koppla ev till inloggning om ni vill. Ni kan också göra en simulerad utcheckning om ni vill (eller kör t ex Stripe här).
 7.    **Kontaktformulär:** Skapa funktionalitet för att skicka formuläret och skapa upp så att personen som skriver i får en visuell indikation på att det lyckats och en bekräftelse via e-post. 
-8.    **Frivilligt: Övrigt:** Ev annan funktionalitet som ni ser kan vara intressant som utökade fält på admingränssnitt, tillfälliga rabatter eller dylikt. Tänk bara på att inte dra iväg med extra saker innan allt annat är på plats och faktiskt bra utfört.
+8.    **Frivilligt: Övrigt:** Ev annan funktionalitet som ni ser kan vara intressant som utökade fält på admingränssnitt, recensionser, tillfälliga rabatter eller dylikt. Tänk bara på att inte dra iväg med extra saker innan allt annat är på plats och faktiskt bra utfört.
 
 ---
 
