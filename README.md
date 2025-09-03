@@ -35,6 +35,11 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produ
 
 ---
 
+### **Design**
+Vi lämnar ingen färdig design på detta, men ni behöver se till att allt som finns i krav är med. För att inte låta det gå för lång tid rekommenderar vi att ni väljer en design utifrån något av förslagen på t ex `https://www.figma.com/community/website-templates/ecommerce?resource_type=mixed&editor_type=all&price=free` eller bildgooglar "e-commerce designs" och väljer en där. Sedan gör ni ev modifieringar för att den ska passa detta syfte. 
+
+---
+
 ### **Arbetsflöde & Sprintplan (3-4 veckor)**
 Den preliminära planen är på 3 veckor, men ev kommer det en del 2 av arbetet som kommer då vara vecka 3-4. Detta beroende på hur arbetet går i grupperna och vad vi hinner med.
 Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje sprint fokuserar på specifika delmål. Detta är bara förslag och ni kan själva bestämma om ni vill fördela det på annat sätt.
