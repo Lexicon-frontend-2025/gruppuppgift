@@ -3,7 +3,7 @@
 ---
 
 ### **Produktbeskrivning**
-Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produkter med hjälp av **Next.js 15 App Router**. Plattformen ska visa upp ett urval av produkter från ett externt API, vara fullt responsiv och ha interaktiva inslag. Dessutom ska ni bygga ett förenklat **admingränssnitt** där ni kan hantera produkter. Målet är att ni ska få praktisk erfarenhet av att arbeta med **Server Components**, **Client Components**, **statiska och dynamiska routeer**, samt hantering av asynkron data och datamutationer med **Server Actions**.
+Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produkter med hjälp av **Next.js 15 App Router**. Plattformen ska visa upp ett urval av produkter från ett externt API, vara fullt responsiv och ha interaktiva inslag. Dessutom ska ni bygga ett förenklat **admingränssnitt** där ni kan hantera produkter. Målet är att ni ska få praktisk erfarenhet av att arbeta med **Server Components**, **Client Components**, **statiska och dynamiska routes**, samt hantering av asynkron data och datamutationer med **Server Actions**.
 
 ---
 
@@ -68,7 +68,7 @@ Denna uppgift är uppdelad i 4 sprints, en för varje vecka. Varje sprint fokuse
 ### **Sprint 2: Dynamisk routing & Interaktion (Vecka 2)**
 **Mål:** Bygg de dynamiska sidorna och lägg till de första interaktiva elementen.
 
-* Skapa den dynamiska routeen `app/products/[id]/page.tsx` för produktsidorna.
+* Skapa den dynamiska routen `app/products/[id]/page.tsx` för produktsidorna.
 * Hämta en specifik produkts data baserat på ID och rendera detaljerad information.
 * Lägg till en **filtreringsfunktion** på startsidan med knappar (t.ex. "Smartphones" och "Laptops"). Använd en **Client Component**.
 * Lägg till "Lägg till i varukorg"-knappen på produktsidan som en **Client Component** (inte vara fungerande utan räcker med en indikation bara).
