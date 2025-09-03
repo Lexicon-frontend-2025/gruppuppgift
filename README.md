@@ -37,7 +37,7 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produ
     * **Alternativ 1 (Enklast):** Använd en enkel miljövariabel och ett formulär för att autentisera, som beskrevs i tidigare kommunikation.
     * **Alternativ 2 (Avancerat):** Använd ett befintligt autentiseringsbibliotek som **Clerk**, **Kinde**, eller **Auth0** för att snabbt implementera en robust inloggningsfunktion.
 6.    **Frivilligt: Kundvagnsfunktionalitet** Använd useContext och API-endpoints för carts/user. Gör så att man kan lägga till och ta bort produkter från kundvagnen och koppla ev till inloggning om ni vill. Ni kan också göra en simulerad utcheckning om ni vill (eller kör t ex Stripe här).
-7.    **Frivilligt: Övrigt:** Ev annan funktionalitet som ni ser kan vara intressant som utökade fält på admingränssnitt, uppdatera produkt eller dylikt. Tänk bara på att inte dra iväg med extra saker innan allt annat är på plats och faktiskt bra utfört.
+7.    **Frivilligt: Övrigt:** Ev annan funktionalitet som ni ser kan vara intressant som utökade fält på admingränssnitt, tillfälliga rabatter eller dylikt. Tänk bara på att inte dra iväg med extra saker innan allt annat är på plats och faktiskt bra utfört.
 
 ---
 
