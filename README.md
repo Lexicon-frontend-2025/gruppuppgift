@@ -3,7 +3,7 @@
 ---
 
 ### **Produktbeskrivning**
-Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produkter med hjälp av **Next.js 15 App Router**. Plattformen ska visa upp ett urval av produkter från ett externt API, vara fullt responsiv och ha interaktiva inslag. Dessutom ska ni bygga ett förenklat **admingränssnitt** där ni kan hantera produkter. Målet är att ni ska få praktisk erfarenhet av att arbeta med **Server Components**, **Client Components**, **statiska och dynamiska routes**, samt hantering av asynkron data och datamutationer med **Server Actions**.
+Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produkter med hjälp av **Next.js 15 App Router**. Plattformen ska visa upp ett urval av produkter från ett externt API, vara fullt responsiv och ha interaktiva inslag. Målet är att ni ska få praktisk erfarenhet av att arbeta med **Server Components**, **Client Components**, **statiska och dynamiska routes**, hantering av asynkron data och praktiskt agilt arbete i grupp.
 
 ---
 
@@ -28,24 +28,16 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produ
     * Skapa en dynamisk route (`/products/[id]`) som visar detaljerad information för en specifik produkt baserat på dess ID. Ni behöver inte ha all info som finns i API här, men titel, beskrivning, bild och pris är minsta kraven.
     * Hämta enskild produktdetalj från API:et och rendera på serversidan.
 3.  **Interaktiva element (Client Components):**
-    * Lägg till en knapp för att **filtrera produkter** efter en kategori.
+    * Lägg till en knapp för att **filtrera produkter** efter en kategori och/eller en fungerande pagineringsfunktion för att bläddra mellan olika sidor (sätt en gräns för antal/sida)
     * Inkludera en knapp för att **"Lägga till i varukorg"** (behöver inte ha en fungerande varukorg, det räcker att den visar en notifikation eller loggar en händelse).
-4.  **Admingränssnitt med CRUD-funktionalitet:**
-    * Skapa en ny route, t.ex. `/admin`, för att hantera produkter.
-    * Implementera en förenklad **CRUD**-funktionalitet (Create, Read, Update, Delete) för produkter. Använd **Server Actions** för att hantera dessa operationer (ni kan simulera att spara/uppdatera data genom att logga händelser till konsolen).
-5.  **Frivilligt: Inloggning:**
-    * Om ni vill ha en extra utmaning, kan ni göra `/admin`-sidan lösenordsskyddad.
-    * **Alternativ 1 (Enklast):** Använd en enkel miljövariabel och ett formulär för att autentisera, som beskrevs i tidigare kommunikation.
-    * **Alternativ 2 (Avancerat):** Använd ett befintligt autentiseringsbibliotek som **Clerk**, **Kinde**, eller **Auth0** för att snabbt implementera en robust inloggningsfunktion.
-6.    **Frivilligt: Kundvagnsfunktionalitet** Använd useContext och API-endpoints för carts/user. Gör så att man kan lägga till och ta bort produkter från kundvagnen och koppla ev till inloggning om ni vill. Ni kan också göra en simulerad utcheckning om ni vill (eller kör t ex Stripe här).
-7.    **Kontaktformulär:** Skapa funktionalitet för att skicka formuläret och skapa upp så att personen som skriver i får en visuell indikation på att det lyckats och en bekräftelse via e-post. 
-8.    **Frivilligt: Övrigt:** Ev annan funktionalitet som ni ser kan vara intressant som utökade fält på admingränssnitt, recensionser, tillfälliga rabatter eller dylikt. Tänk bara på att inte dra iväg med extra saker innan allt annat är på plats och faktiskt bra utfört.
+4.    **Kontaktformulär:** Skapa funktionalitet för att skicka formuläret och skapa upp så att personen som skriver i får en visuell indikation på att det lyckats och en bekräftelse via e-post. 
+5.    **Frivilligt: Övrigt:** Ev annan funktionalitet som ni ser kan vara intressant som visa recensionser, utvalda produkter eller dylikt. Tänk bara på att inte dra iväg med extra saker innan allt annat är på plats och faktiskt bra utfört.
 
 ---
 
-### **Arbetsflöde & Sprintplan (4 veckor)**
-
-Denna uppgift är uppdelad i 4 sprints, en för varje vecka. Varje sprint fokuserar på specifika delmål. Detta är bara förslag och ni kan själva bestämma om ni vill fördela det på annat sätt.
+### **Arbetsflöde & Sprintplan (3-4 veckor)**
+Den preliminära planen är på 3 veckor, men ev kommer det en del 2 av arbetet som kommer då vara vecka 3-4. Detta beroende på hur arbetet går i grupperna och vad vi hinner med.
+Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje sprint fokuserar på specifika delmål. Detta är bara förslag och ni kan själva bestämma om ni vill fördela det på annat sätt.
 
 #### **Övergripande arbetsflöde:**
 * **Sprintplanering:** I början av varje vecka går ni igenom veckans mål och fördelar ansvar och uppdaterar löpande er scrum board.
@@ -75,20 +67,8 @@ Denna uppgift är uppdelad i 4 sprints, en för varje vecka. Varje sprint fokuse
 
 ---
 
-### **Sprint 3: Skapa & Ta bort produkter (Vecka 3)**
-**Mål:** Implementera grundläggande CRUD-funktioner.
-
-* Skapa en ny route, t.ex. `app/admin/page.tsx`, för admingränssnittet.
-* **Read (Läs):** På adminvyn, visa en lista över alla produkter.
-* **Create (Skapa):** Skapa ett formulär för att lägga till en ny produkt (titel, beskrivning, pris, etc.). Använd en **Server Action** för att hantera formulärdata och "skapa" produkten genom att logga den till konsolen och skicka till korrekt API endpoint. Visa meddelande om detta lyckats för användaren.
-* **Delete (Ta bort):** Lägg till en "Ta bort"-knapp vid varje produkt i adminvyn. Använd en **Server Action** för att hantera raderingen.  Använd endpoint för detta och ge användaren återkoppling om detta lyckats.
-* **Frivilligt:** Om ni väljer att lägga till inloggning, gör en enkel implementering för detta i samband med detta.
-
----
-
-### **Sprint 4: Uppdatering & Slutputs (Vecka 4)**
-**Mål:** Komplettera CRUD, slutföra designen och förbereda presentation.
-
-* **Update (Uppdatera):** Lägg till en "Redigera"-knapp vid varje produkt. Denna ska leda till ett formulär som fylls i med den befintliga produktens data och som låter er uppdatera den. Använd en **Server Action** för att hantera uppdateringen.
+### **Sprint 4: Slutputs (Vecka 3)**
+**Mål:** Slutför designen och förbereda presentation.
 * **Refaktorera** koden för att göra den mer läsbar, återanvändbar och effektiv.
 * Se över hela applikationens responsivitet och design för en sista puts.
+* Ev redovisning/presentation av projektet (beroende på om det blir en del 2 eller ej)
