@@ -21,7 +21,7 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produ
 
 ### **Funktionalitetskrav**
 1.  **Startsida, Om oss, Kontakt:**
-    * På startsidan - Visa en översikt av samtliga produkter. Hämta och rendera produktdata på serversidan. Den första produkten på sidan ska ha avvikande design och vara större än de andra t ex spänna över två kolumner/rader. Det ska också finnas en Hero med en CTA högst upp på sidan.
+    * På startsidan - Visa en översikt av ett urval av produkter (kan vara ett antal som 20 st eller en/flera kategorier av produkter i grupp). Hämta och rendera produktdata på serversidan. Det ska också finnas en Hero med en CTA högst upp på sidan.
     * Om Oss - Gör en Lorem-text eller skriv ihop något bara för att ha något där samt en bild.
     * Kontakt - Ett tomt formulär med lämpliga labels osv (funktionalitet för detta är frivilligt)
 2.  **Produktsida:**
