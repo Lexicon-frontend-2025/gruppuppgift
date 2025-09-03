@@ -12,7 +12,7 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produ
 * **TypesScript:** Använd typescript i projektet
 * **DummyJSON API:** Använd API:et `https://dummyjson.com/products` (alternativt `https://fakeapi.platzi.com/`) för att hämta produktdata.
 * **React:** Arbeta med React-komponenter, både Server och Client.
-* **Valfri styling:** Använd den stylingmetod ni är bekväma med (t.ex. CSS-moduler, Tailwind CSS eller Styled Components).
+* **Valfri styling:** Använd den stylingmetod ni är bekväma med (CSS-moduler/Tailwind CSS).
 * **Git & GitHub:** Använd Git för versionskontroll och GitHub för samarbete.
 * **Projekthanteringsverktyg:** Använd GitHub Projects (agile/scrum board), Trello (kanban board) eller dylikt som alla i grupper kan komma åt och vara bekväma med att använda. Denna ska hela tiden hållas uppdaterad.
 * **WAVE/Tillgänglighet:** Se till att testa tillgängligheten under arbetet med WAVE eller dylikt.
