@@ -70,8 +70,8 @@ Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje spri
 
 * Skapa den dynamiska routen `app/products/[id]/page.tsx` för produktsidorna.
 * Hämta en specifik produkts data baserat på ID och rendera detaljerad information.
-* Lägg till **sökfunktionen** och **paginering**. Använd **Client Component** och **Server Component** i samarbete med varandra för att lösa detta.
-* Lägg till "Lägg till i varukorg"-knappen på produktsidan som en **Client Component** (inte vara fungerande utan räcker med en indikation bara).
+* Lägg till **sökfunktionen** och **paginering**. Använd **Client Components** och **Server Components** i samarbete med varandra för att lösa detta.
+* Lägg till "Lägg till i varukorg"-knappen på produktsidan som en **Client Component** (inte vara fungerande utan räcker med en indikation att en vara lagts till).
 
 ---
 
