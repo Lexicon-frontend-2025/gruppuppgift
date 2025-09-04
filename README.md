@@ -36,7 +36,7 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produ
 ---
 
 ### **Design**
-Vi lämnar ingen färdig design på detta, men ni behöver se till att allt som finns i krav är med. För att inte låta det gå för lång tid rekommenderar vi att ni väljer en design utifrån något av förslagen på t ex `https://www.figma.com/community/website-templates/ecommerce?resource_type=mixed&editor_type=all&price=free` eller bildgooglar "e-commerce designs" och väljer en där. Sedan gör ni ev modifieringar för att den ska passa detta syfte. Innan ni sedan börjar koda vill vi att ni skickar oss ert förslag på detta. Något liknande detta bör vara helt ok (med lite ändringar) <img width="2533" height="1092" alt="image" src="https://github.com/user-attachments/assets/5809977b-a719-4ec2-b8e7-313d3adb1ec4" />
+Vi lämnar ingen färdig design på detta, men ni behöver se till att allt som finns i krav är med. För att inte låta det gå för lång tid rekommenderar vi att ni väljer en design utifrån något av förslagen på t ex `https://www.figma.com/community/website-templates/ecommerce?resource_type=mixed&editor_type=all&price=free` eller bildgooglar "e-commerce designs" och väljer en där. Det finns också sidor som denna som ni kan få inspiration från: `https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d`Sedan gör ni ev modifieringar för att den ska passa detta syfte. Innan ni sedan börjar koda vill vi att ni skickar oss ert förslag på detta. Något liknande detta bör vara helt ok (med lite ändringar) <img width="2533" height="1092" alt="image" src="https://github.com/user-attachments/assets/5809977b-a719-4ec2-b8e7-313d3adb1ec4" />
 
 
 ---
