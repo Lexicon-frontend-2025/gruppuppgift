@@ -15,7 +15,7 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produ
 * **Valfri styling:** Använd den stylingmetod ni är bekväma med (CSS-moduler/Tailwind CSS).
 * **Git & GitHub:** Använd Git för versionskontroll och GitHub för samarbete.
 * **Projekthanteringsverktyg:** Använd GitHub Projects (agile/scrum board), Trello (kanban board) eller dylikt som alla i grupper kan komma åt och vara bekväma med att använda. Denna ska hela tiden hållas uppdaterad.
-* **WAVE/Tillgänglighet:** Se till att testa tillgängligheten under arbetet med WAVE eller dylikt.
+* **WAVE:** Se till att ha fokus på och testa tillgängligheten under arbetet med WAVE eller dylikt.
 
 ---
 
@@ -23,15 +23,15 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produ
 1.  **Startsida, Om oss, Kontakt:**
     * På startsidan - Visa en översikt av ett urval av produkter (kan vara ett antal som 20 st eller en/flera kategorier av produkter i grupp). Hämta och rendera produktdata på serversidan. Det ska också finnas en Hero med en CTA högst upp på sidan.
     * Om Oss - Gör en Lorem-text eller skriv ihop något bara för att ha något där samt en bild.
-    * Kontakt - Ett tomt formulär med lämpliga labels osv (funktionalitet för detta är frivilligt)
+    * Kontakt - Formulär för få kontakt med företaget
 2.  **Produktsida:**
     * Skapa en dynamisk route (`/products/[id]`) som visar detaljerad information för en specifik produkt baserat på dess ID. Ni behöver inte ha all info som finns i API här, men titel, beskrivning, bild och pris är minsta kraven.
     * Hämta enskild produktdetalj från API:et och rendera på serversidan.
 3.  **Interaktiva element (Client Components):**
-    * Lägg till en **sökfunktion** och en fungerande **pagineringsfunktion** för att bläddra mellan olika sidor (sätt en gräns för antal/sida).
+    * Lägg till en **sökfunktion** och en fungerande **pagineringsfunktion** för att bläddra mellan olika sidor (sätt en fast gräns för antal/sida, om ni vill kan ni lägga till val för detta senare).
     * Inkludera en knapp för att **"Lägga till i varukorg"** (behöver inte ha en fungerande varukorg, det räcker att den visar en notifikation eller loggar en händelse).
-4.    **Kontaktformulär:** Skapa funktionalitet för att skicka formuläret och skapa upp så att personen som skriver i får en visuell indikation på att det lyckats och en bekräftelse via e-post. 
-5.    **Frivilligt: Övrigt:** Ev annan funktionalitet som ni ser kan vara intressant som visa recensionser, utvalda produkter eller dylikt. Tänk bara på att inte dra iväg med extra saker innan allt annat är på plats och faktiskt bra utfört.
+4.    **Kontaktformulär:** Skapa funktionalitet för att skicka formuläret och skapa upp så att personen som skriver i får en visuell indikation på att det lyckats (ingen funktionalitet med e-post osv behövs). 
+5.    **Frivilligt:** Ev annan funktionalitet som ni ser kan vara intressant som visa recensionser, utvalda produkter, filtrerar på kategorier, skicka e-post via kontaktformulär eller dylikt. Tänk bara på att inte dra iväg med extra saker innan allt annat är på plats och faktiskt bra utfört.
 
 ---
 
@@ -43,7 +43,7 @@ Vi lämnar ingen färdig design på detta, men ni behöver se till att allt som 
 
 ### **Arbetsflöde & Sprintplan (3-4 veckor)**
 Den preliminära planen är på 3 veckor, men ev kommer det en del 2 av arbetet som kommer då vara vecka 3-4. Detta beroende på hur arbetet går i grupperna och vad vi hinner med.
-Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje sprint fokuserar på specifika delmål. Detta är bara förslag och ni kan själva bestämma om ni vill fördela det på annat sätt.
+Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje sprint fokuserar på specifika delmål. Detta är bara förslag och ni kan själva bestämma om ni vill fördela det på annat sätt. Det finns ingen produktägare i detta projekt så det är upp till er att ha användaren i fokus i arbetet med design och funktionalitet. Det ska vara tydligt och enkelt för den som tittar på sidan att hitta det man vill och behöver (oavsett ev handikapp osv). 
 
 **Innan ni börjar att koda se till att allt är förberett i ert SCRUM board, att ni har valt design och beslutat vem som börjar med vad. Vi vill också att ni visar upp detta för oss lärare och får klartecken innan ni sätter igång med något mer.**
 
@@ -69,7 +69,7 @@ Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje spri
 **Mål:** Bygg de dynamiska sidorna och lägg till de första interaktiva elementen.
 * Skapa den dynamiska routen `app/products/[id]/page.tsx` för produktsidorna.
 * Hämta en specifik produkts data baserat på ID och rendera detaljerad information.
-* Lägg till **sökfunktion** och **paginering** där det är aktuellt. Använd **Client Components** och **Server Components** i samarbete med varandra för att lösa detta.
+* Lägg till **sökfunktion** och **paginering** där det är aktuellt. Använd client/server-components i samarbete med varandra för att lösa detta.
 * Lägg till "Lägg till i varukorg"-knappen på produktsidan (behöver inte vara fungerande utan räcker med en indikation att en vara lagts till).
 
 ---
@@ -77,6 +77,7 @@ Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje spri
 ### **Sprint 4: Slutputs (Vecka 3)**
 **Mål:** Slutför designen, optimering och förbereda presentation.
 * **Refaktorera** koden för att göra den mer läsbar, återanvändbar och effektiv.
-* Se också till att optimera med t ex generateStaticParams, lämplig metadata och suspense/loading.tsx.
-* Se över hela applikationens responsivitet och design för en sista puts.
+* Se också till att **optimera** med t ex generateStaticParams, lämplig metadata och suspense/loading.tsx.
+* Se över hela applikationens **responsivitet** och **design** för en sista puts.
+* Kontrollera **tillgängligheten** med WAVE eller dylikt
 * Ev redovisning/presentation av projektet (beroende på om det blir en del 2 eller ej)
