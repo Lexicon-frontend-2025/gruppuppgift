@@ -56,27 +56,27 @@ Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje spri
 ---
 
 ### **Sprint 1: Grundläggande struktur (Vecka 1)**
-**Mål:** Sätt upp Next.js-projektet och skapa meny och de statiska sidorna.
-
+**Mål:** Planera grunderna. Sätt upp Next.js-projektet och skapa meny och de statiska sidorna.
+* Välj API och UX design att utgå från
 * Skapa ett nytt Next.js-projekt med App Router.
-* Skapa en `page.js` för startsidan (root route).
-* Hämta all produktdata från `dummyjson.com/products` och rendera en lista av produkttitel, bild, pris osv på startsidan. Använd en **Server Component** för datahämtningen.
-* Skapa en enkel layout/design för startsidan.
+* Rensa bort templatekod (eller alternativt gör ett tomt projekt och skapa själv grundstrukturen).
+* Hämta all produktdata från API endpoint för detta och rendera en lista av produkttitel, bild, pris osv på startsidan.
+* Gör grundläggande design layout/design för startsidan.
 
 ---
 
 ### **Sprint 2: Dynamisk routing & Interaktion (Vecka 2)**
 **Mål:** Bygg de dynamiska sidorna och lägg till de första interaktiva elementen.
-
 * Skapa den dynamiska routen `app/products/[id]/page.tsx` för produktsidorna.
 * Hämta en specifik produkts data baserat på ID och rendera detaljerad information.
-* Lägg till **sökfunktionen** och **paginering**. Använd **Client Components** och **Server Components** i samarbete med varandra för att lösa detta.
-* Lägg till "Lägg till i varukorg"-knappen på produktsidan som en **Client Component** (inte vara fungerande utan räcker med en indikation att en vara lagts till).
+* Lägg till **sökfunktion** och **paginering** där det är aktuellt. Använd **Client Components** och **Server Components** i samarbete med varandra för att lösa detta.
+* Lägg till "Lägg till i varukorg"-knappen på produktsidan (behöver inte vara fungerande utan räcker med en indikation att en vara lagts till).
 
 ---
 
 ### **Sprint 4: Slutputs (Vecka 3)**
-**Mål:** Slutför designen och förbereda presentation.
+**Mål:** Slutför designen, optimering och förbereda presentation.
 * **Refaktorera** koden för att göra den mer läsbar, återanvändbar och effektiv.
+* Se också till att optimera med t ex generateStaticParams, lämplig metadata och suspense/loading.tsx.
 * Se över hela applikationens responsivitet och design för en sista puts.
 * Ev redovisning/presentation av projektet (beroende på om det blir en del 2 eller ej)
