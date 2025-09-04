@@ -57,11 +57,12 @@ Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje spri
 
 ### **Sprint 1: Grundläggande struktur (Vecka 1)**
 **Mål:** Planera grunderna. Sätt upp Next.js-projektet och skapa meny och de statiska sidorna.
-* Välj API och UX design att utgå från
+* Välj API, UX design att utgå från, ev bibliotek som ni vill använda (t ex Tailwind). **Detta ska förmedlas till oss lärare som ska godkänna innan ni börjar kodandet.**
 * Skapa ett nytt Next.js-projekt med App Router.
 * Rensa bort templatekod (eller alternativt gör ett tomt projekt och skapa själv grundstrukturen).
+* Skapa upp menyer och grundstruktur på projektet
 * Hämta all produktdata från API endpoint för detta och rendera en lista av produkttitel, bild, pris osv på startsidan.
-* Gör grundläggande design layout/design för startsidan.
+* Gör grundläggande layout/design för startsidan.
 
 ---
 
