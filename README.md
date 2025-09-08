@@ -48,9 +48,9 @@ Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje spri
 **Innan ni börjar att koda se till att allt är förberett i ert SCRUM board, att ni har valt design och beslutat vem som börjar med vad. Vi vill också att ni visar upp detta för oss lärare och får klartecken innan ni sätter igång med något mer.**
 
 #### **Övergripande arbetsflöde:**
-* **Sprintplanering:** I början av varje vecka går ni igenom veckans mål och fördelar ansvar och uppdaterar löpande er scrum board. 
-* **Löpande arbete:** Arbeta i era egna branches, gör regelbundna `git commit`-operationer och `git push` till er branch.
-* **Kodgranskning:** I slutet av varje vecka (t.ex. fredag) presenterar ni era slutförda delmål, skapar **Pull Requests (PRs)** och granskar varandras kod (detta kan också ske löpande under veckan vid behov). När koden är godkänd mergas den in i `main`-branchen.
+* **Sprintplanering:** I början av varje vecka går ni igenom veckans mål och fördelar ansvar och uppdaterar löpande er scrum board. Varje person väljer själv sina ansvar, vissa kort kommer vara spärrade då PR inte är granskad/mergad ännu och då väljer ni bara ett annat. 
+* **Löpande arbete:** Arbeta i era egna branches, gör regelbundna `git commit`-operationer och `git push` till er branch (en för varje feature/card/issue). 
+* **Kodgranskning:** I slutet av varje vecka/dag (t.ex. fredag) presenterar ni era slutförda delmål, skapar **Pull Requests (PRs)** och granskar varandras kod (detta kan också ske löpande under veckan vid behov). När koden är godkänd mergas den in i `main`-branchen. 
 * **Feedback & Justering:** Efter granskningen ger ni feedback och justerar eventuella brister innan ni påbörjar nästa sprint.
 
 ---
