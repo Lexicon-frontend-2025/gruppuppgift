@@ -23,14 +23,14 @@ Uppgiften är att bygga en **minimalistisk e-handelsplattform** för olika produ
 1.  **Startsida, Om oss, Kontakt:**
     * På startsidan - Visa en översikt av ett urval av produkter (kan vara ett antal som 20 st eller en/flera kategorier av produkter i grupp). Hämta och rendera produktdata på serversidan. Det ska också finnas en Hero med en CTA högst upp på sidan.
     * Om Oss - Gör en Lorem-text eller skriv ihop något bara för att ha något där samt en bild.
-    * Kontakt - Formulär för få kontakt med företaget
+    * Kontakt - Formulär för få kontakt med företaget. Kravet här är rutor för e-post och meddelande till företaget och en knapp för att skicka. Vill man kan man lägga till titel (subject) och ev en drop-down för vilken typ av kontakt man önskar - Support, info, reklamation... Ingen faktiskt funktionalitet av denna krävs förutom tillgänglighet med typer, labels osv.
 2.  **Produktsida:**
     * Skapa en dynamisk route (`/products/[id]`) som visar detaljerad information för en specifik produkt baserat på dess ID. Ni behöver inte ha all info som finns i API här, men titel, beskrivning, bild och pris är minsta kraven.
     * Hämta enskild produktdetalj från API:et och rendera på serversidan.
 3.  **Interaktiva element (Client Components):**
     * Lägg till en **sökfunktion** och en fungerande **pagineringsfunktion** för att bläddra mellan olika sidor (sätt en fast gräns för antal/sida, om ni vill kan ni lägga till val för detta senare).
     * Inkludera en knapp för att **"Lägga till i varukorg"** (behöver inte ha en fungerande varukorg, det räcker att den visar en notifikation eller loggar en händelse).
-4.    **Kontaktformulär:** Skapa funktionalitet för att skicka formuläret och skapa upp så att personen som skriver i får en visuell indikation på att det lyckats (ingen funktionalitet med e-post osv behövs). 
+4.    **Frivilligt:** Skapa funktionalitet för att skicka kontaktformuläret och skapa upp så att personen som skriver i får en visuell indikation på att det lyckats (ingen funktionalitet med e-post osv behövs). 
 5.    **Frivilligt:** Ev annan funktionalitet som ni ser kan vara intressant som visa recensionser, utvalda produkter, filtrerar på kategorier, skicka e-post via kontaktformulär eller dylikt. Tänk bara på att inte dra iväg med extra saker innan allt annat är på plats och faktiskt bra utfört.
 
 ---
