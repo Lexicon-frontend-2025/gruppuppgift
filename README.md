@@ -75,7 +75,7 @@ Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje spri
 
 ---
 
-### **Sprint 4: Slutputs (Vecka 3)**
+### **Sprint 3: Slutputs (Vecka 3)**
 **Mål:** Slutför designen, optimering och förbereda presentation.
 * **Refaktorera** koden för att göra den mer läsbar, återanvändbar och effektiv.
 * Se också till att **optimera** med t ex generateStaticParams, lämplig metadata och suspense/loading.tsx.
