@@ -64,7 +64,7 @@ För att underlätta samarbetet och säkerställa att ni hela tiden rör er fram
 
   * **Morgonmöte (ca 10-15 minuter):** Håll ett kort dagligt möte, gärna på morgonen. Varje person delar kort vad de planerar att arbeta med under dagen. Berätta om eventuella problem eller hinder du stött på, så att gruppen kan hjälpa till att lösa dem.
   * **Dedikerad tid för Pull Requests (PR):** Att skicka in en **Pull Request** är inte slutet på en uppgift, utan början på en diskussion och ett samarbete. Bestäm en tid varje dag då ni går igenom aktiva PR:s, lämnar feedback och granskar varandras kod.
-  * **Arbeta i små, avgränsade delar:** Uppmana gruppen att arbeta med små och hanterbara uppgifter. Bryt ner stora kort som ”Bygg produktsidan” till mindre delar som ”Hämta produktdatan från API:et” eller ”Rendera produktbild och titel”. Detta undviker **merge conflicts** och ger en tydlig känsla av framsteg.
+  * **Arbeta i små, avgränsade delar:** Arbeta gärna med små och hanterbara uppgifter. Bryt ner stora kort som ”Bygg produktsidan” till mindre delar som ”Hämta produktdatan från API:et” eller ”Rendera produktbild och titel”. Detta undviker **merge conflicts** och ger en tydlig känsla av framsteg.
 
 -----
 
