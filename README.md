@@ -63,7 +63,7 @@ Denna uppgift är därför uppdelad i 3 sprints, en för varje vecka. Varje spri
 För att underlätta samarbetet och säkerställa att ni hela tiden rör er framåt som en grupp, kan ni införa några enkla men effektiva dagliga rutiner. Detta hjälper er att hantera hinder i tid och hålla koll på allas framsteg.
 
   * **Morgonmöte (ca 10-15 minuter):** Håll ett kort dagligt möte, gärna på morgonen. Varje person delar kort vad de planerar att arbeta med under dagen. Berätta om eventuella problem eller hinder du stött på, så att gruppen kan hjälpa till att lösa dem.
-  * **Dedikerad tid för Pull Requests (PR):** Att skicka in en **Pull Request** är inte slutet på en uppgift, utan början på en diskussion och ett samarbete. Bestäm en tid varje dag då ni går igenom aktiva PR:s, lämnar feedback och granskar varandras kod. Detta är helt okej att bara göra i par med.
+  * **Dedikerad tid för Pull Requests (PR):** Att skicka in en **Pull Request** är inte slutet på en uppgift, utan början på en diskussion och ett samarbete. Bestäm en tid varje dag då ni går igenom aktiva PR:s, lämnar feedback och granskar varandras kod. Detta är helt okej att bara göra i par och i mån av behov.
   * **Arbeta i små, avgränsade delar:** Arbeta gärna med små och hanterbara uppgifter. Bryt ner stora kort som ”Bygg produktsidan” till mindre delar som ”Hämta produktdatan från API:et” eller ”Rendera produktbild och titel”. Detta undviker **merge conflicts** och ger en tydlig känsla av framsteg.
 
 -----
