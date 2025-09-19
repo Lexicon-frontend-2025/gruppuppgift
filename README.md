@@ -91,8 +91,16 @@ För att underlätta samarbetet och säkerställa att ni hela tiden rör er fram
   * Lägg till "Lägg till i varukorg"-knappen på produktsidan (behöver inte vara fungerande utan räcker med en indikation att en vara lagts till).
 
 -----
+### **Sprint 3: Skapa & Ta bort produkter (Vecka 3)**
+**Mål:** Implementera grundläggande CRUD-funktioner.
 
-### **Sprint 3: Slutputs (Vecka 3)**
+* Skapa en ny route, t.ex. `app/admin/page.tsx`, för admingränssnittet.
+* **Read (Läs):** På adminvyn, visa en lista över alla produkter. 
+* **Create (Skapa):** Lägg till en knapp för att skapa nya produkter på översiktssidan. Skapa ett formulär för att lägga till en ny produkt (titel, beskrivning, pris, etc.). Använd en **Server Action** för att hantera formulärdata och "skapa" produkten genom att logga den till konsolen (om ni inte använder Platzi, då kan ni göra det på riktigt).
+* **Delete (Ta bort):** Lägg till en "Ta bort"-knapp vid varje produkt i adminvyn. Använd en **Server Action** för att hantera raderingen.
+* **Frivilligt - Update (Uppdatera):** Gör en knapp vid sidan av ta bort för att uppdatera och en sida för det.
+
+### **Sprint 4: Slutputs (Vecka 4)**
 
 **Mål:** Slutför designen, optimering och förbereda presentation.
 
