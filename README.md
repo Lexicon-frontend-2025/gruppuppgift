@@ -154,6 +154,7 @@ Detta skickar ni i ett privat meddelande till oss lärare. Reflektera över det 
 1. **Tekniskt genombrott:** Vilken del av Next.js/TypeScript/React var svårast att greppa i början, men som du nu känner dig mer bekväm med?
 2. **Största utmaningen:** Vilket problem tog längst tid/var svårast att lösa att lösa, och hur löste du det till slut?
 3. **Bäst fungerande:** Vilken kod/lösning känner du dig mest nöjd med, och varför? (T.ex. ett elegant sätt att hantera state eller en optimerad datahämtning.)
+4. **Agilt samarbete:** Vad skulle du som gruppmedlem kunna göra annorlunda i nästa samarbeta för att bidra till ännu bättre arbetsklimat, kommunikation och effektivitet?
 
 ---
 
