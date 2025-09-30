@@ -99,7 +99,9 @@ För att underlätta samarbetet och säkerställa att ni hela tiden rör er fram
 * **Create (Skapa):** Lägg till en knapp för att skapa nya produkter på översiktssidan. Skapa ett formulär för att lägga till en ny produkt (titel, beskrivning, pris, etc.). Använd en **Server Action** för att hantera formulärdata och "skapa" produkten genom att logga den till konsolen (om ni inte använder Platzi, då kan ni göra det på riktigt).
 * **Delete (Ta bort):** Lägg till en "Ta bort"-knapp vid varje produkt i adminvyn. Använd en **Server Action** för att hantera raderingen.
 * **Frivilligt - Update (Uppdatera):** Gör en knapp vid sidan av ta bort för att uppdatera och en sida för det.
+* 
 -----
+
 ### **Sprint 4: Slutputs (Vecka 4)**
 
 **Mål:** Slutför designen, optimering och förbereda presentation.
@@ -109,3 +111,21 @@ För att underlätta samarbetet och säkerställa att ni hela tiden rör er fram
   * Se över hela applikationens **responsivitet** och **design** för en sista puts.
   * Kontrollera **tillgängligheten** med WAVE eller dylikt
   * Ev redovisning/presentation av projektet (beroende på om det blir en del 2 eller ej)
+
+  -----
+
+### **Redovisning**
+
+Ni kommer bli tilldelade tvärgrupper där ni ger en demonstration av er app. Instruktionerna känner ni nog igen från Pokédex-demon. **Kom ihåg att du är en representant för gruppen och inte vad du själv gjort i projektet.**
+1. Berätta vilka ni var i ert projekt och vad ert fokus var när det gällde API, design och andra beslut ni tog i början.
+2. Gör en översiktligt demonstration av funktionalitet i appen, berätta kort vad ni gjort enligt uppgiftens specifikationer och om det är något ni inte lyckats få till, men gå inte in på detaljer.
+3. Därefter väljer ni en eller två funktionaliteter i appen ni vill prata lite mer om. **Det ska inte vara en del du gjort själv, så se till att du förstår koden du ska prata om.** (Det är inte viktigt vem som skrivit koden och du ska inte nämna namn här).
+4. Beskriv hur ni i gruppen löst det, men visa inte kod, berätta istället med ord/tekniska termen så gott ni kan. Använd ord som "client components", "searchParams" osv som vi jobbat med.
+5. Gruppens medlemmar får också möjlighet att ställa frågor på ett sätt så alla förstår hur du tänkt. Ingen kritik eller förslag till andra lösningar här utan bara klargörande frågor.
+6. När allt är tydligt och klart ges möjlighet för alla i gruppen att ge kort, positiv och konstruktiv feedback - om man vill. Det kan vara att ni tyckte det var en intressant lösning med fetch eller att det var snyggt gjort med hur responsiv menyn var osv. Försök att vara mer än bara "snyggt", "bra" då det ofta mest bara blir oklart.
+7. Ta sedan en kort runda där ni säger något som ni tyckte var utmanande/spännande/intressant i koden när ni arbetade med den (alltså inte i uppgiften/API i sig utan enbart tekniskt).
+   
+---
+
+
+
