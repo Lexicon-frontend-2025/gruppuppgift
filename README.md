@@ -99,7 +99,7 @@ För att underlätta samarbetet och säkerställa att ni hela tiden rör er fram
 * **Create (Skapa):** Lägg till en knapp för att skapa nya produkter på översiktssidan. Skapa ett formulär för att lägga till en ny produkt (titel, beskrivning, pris, etc.). Använd en **Server Action** för att hantera formulärdata och "skapa" produkten genom att logga den till konsolen (om ni inte använder Platzi, då kan ni göra det på riktigt).
 * **Delete (Ta bort):** Lägg till en "Ta bort"-knapp vid varje produkt i adminvyn. Använd en **Server Action** för att hantera raderingen.
 * **Frivilligt - Update (Uppdatera):** Gör en knapp vid sidan av ta bort för att uppdatera och en sida för det.
-
+-----
 ### **Sprint 4: Slutputs (Vecka 4)**
 
 **Mål:** Slutför designen, optimering och förbereda presentation.
