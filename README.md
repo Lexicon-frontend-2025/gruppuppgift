@@ -139,7 +139,9 @@ Detta görs individuellt i syfte att göra det tydligt i er portfolio vad som va
 * Börja med att göra en fork eller klona ert gemensamma repo till din egen GitHub. Sedan bygger ni på er readme med individuell reflektion enligt nedan. 
 
 3. **Ditt bidrag till projektet**
-* Beskriv kortfattat vad ditt primära bidrag till projektet var. Nämn de viktigaste funktionaliteterna eller sidorna du ansvarade för (t.ex. "Ansvarade för att sätta upp den dynamiska /products/[id]-routen och hämta detaljdata på servern" eller "Implementerade sökfunktionen med useSearchParams i en Client Component"). Samt vilka tekniker eller komponenter du använde i detta (t.ex. Server Actions, fetch i Server Components, Types/Interfaces, etc).
+* Beskriv kortfattat vad ditt primära bidrag till projektet var.
+* Nämn de viktigaste funktionaliteterna eller sidorna du ansvarade för (t.ex. "Ansvarade för att sätta upp den dynamiska /products/[id]-routen och hämta detaljdata på servern" eller "Implementerade sökfunktionen med useSearchParams i en Client Component").
+* Se till att få med lite om vilka tekniker eller komponenter du använde i detta (t.ex. Server Actions, fetch i Server Components, Types/Interfaces, etc).
  
 2. **Utvecklingsmöjligheter**
 * Om skulle fortsätta på projektet, vilken del skulle du prioritera att förbättra eller lägga till? (T.ex. "Skulle refaktorera all styling till att använda CSS-moduler mer konsekvent" eller "Skulle implementera riktig state-hantering för varukorgen.")
