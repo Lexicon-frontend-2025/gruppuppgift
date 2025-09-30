@@ -133,7 +133,7 @@ Titta tillbaka på både koden och samarbetsprocessen och föreslå förbättrin
 
   ---
 
-###Reflektion, del 2
+### Reflektion, del 2
 Detta skickar ni i ett privat meddelande till oss lärare
 
  1. Lärdomar och Utmaningar
