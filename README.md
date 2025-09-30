@@ -120,9 +120,9 @@ Detta görs individuellt.
 Detta avsnitt ska skrivas individuellt av varje gruppmedlem i README-filen. Syftet är att du reflekterar över ditt bidrag, hur grupparbetet fungerade, samt de tekniska utmaningar du mötte och lärde dig av. Håll dig gärna kortfattad.
 
 1. Bidrag till projektet
-* Beskriv kortfattat vad ditt primära bidrag till projektet var. Nämn de viktigaste funktionaliteterna eller sidorna du ansvarade för (t.ex. "Ansvarade för att sätta upp den dynamiska /products/[id]-routen och hämta detaljdata på servern" eller "Implementerade sökfunktionen med useSearchParams i en Client Component").
+* **Beskriv kortfattat vad ditt primära bidrag till projektet var**. Nämn de viktigaste funktionaliteterna eller sidorna du ansvarade för (t.ex. "Ansvarade för att sätta upp den dynamiska /products/[id]-routen och hämta detaljdata på servern" eller "Implementerade sökfunktionen med useSearchParams i en Client Component").
 
-* Vilka tekniker eller komponenter jobbade du mest med (t.ex. Server Actions, fetch i Server Components, TypeScript-typning, etc.)?
+* **Vilka tekniker eller komponenter jobbade du mest med** (t.ex. Server Actions, fetch i Server Components, TypeScript-typning, etc.)?
 
 2. Lärdomar och Utmaningar
 Reflektera över det som var mest utmanande, spännande eller lärorikt under projektet.
