@@ -114,6 +114,30 @@ För att underlätta samarbetet och säkerställa att ni hela tiden rör er fram
 
   -----
 
+### Reflektion
+Detta görs individuellt. 
+
+Detta avsnitt ska skrivas individuellt av varje gruppmedlem i README-filen. Syftet är att du reflekterar över ditt bidrag, hur grupparbetet fungerade, samt de tekniska utmaningar du mötte och lärde dig av. Håll dig gärna kortfattad.
+
+1. Bidrag till projektet
+* Beskriv kortfattat vad ditt primära bidrag till projektet var. Nämn de viktigaste funktionaliteterna eller sidorna du ansvarade för (t.ex. "Ansvarade för att sätta upp den dynamiska /products/[id]-routen och hämta detaljdata på servern" eller "Implementerade sökfunktionen med useSearchParams i en Client Component").
+
+* Vilka kort/uppgifter i er Scrum Board/Kanban Board var dina viktigaste bidrag?
+
+* Vilka tekniker eller komponenter jobbade du mest med (t.ex. Server Actions, fetch i Server Components, TypeScript-typning, etc.)?
+
+2. Lärdomar och Utmaningar
+Reflektera över det som var mest utmanande, spännande eller lärorikt under projektet.
+
+* Tekniskt genombrott: Vilken del av Next.js/TypeScript/React var svårast att greppa i början, men som du nu känner dig mer bekväm med?
+
+* Största utmaningen: Vilket problem tog längst tid att lösa, och hur löste du det?
+
+* Bäst fungerande: Vilken kod/lösning känner du dig mest nöjd med, och varför? (T.ex. ett elegant sätt att hantera state eller en optimerad datahämtning.)
+
+
+  ---
+
 ### **Redovisning**
 
 Ni kommer bli tilldelade tvärgrupper där ni ger en demonstration av er app. Instruktionerna känner ni nog igen från Pokédex-demon. **Kom ihåg att du är en representant för gruppen och inte vad du själv gjort i projektet.**
