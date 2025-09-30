@@ -148,17 +148,12 @@ Detta görs individuellt i syfte att göra det tydligt i er portfolio vad som va
 
   ---
 
-### Reflektion, del 2
-Detta skickar ni i ett privat meddelande till oss lärare.
+### Reflektion, del 2 - Lärdomar och Utmaningar
+Detta skickar ni i ett privat meddelande till oss lärare. Reflektera över det som var mest utmanande, spännande eller lärorikt under projektet.
 
- 1. Lärdomar och Utmaningar
-- Reflektera över det som var mest utmanande, spännande eller lärorikt under projektet.
-
-* **Tekniskt genombrott:** Vilken del av Next.js/TypeScript/React var svårast att greppa i början, men som du nu känner dig mer bekväm med?
-
-* **Största utmaningen:** Vilket problem tog längst tid att lösa, och hur löste du det?
-
-* **Bäst fungerande:** Vilken kod/lösning känner du dig mest nöjd med, och varför? (T.ex. ett elegant sätt att hantera state eller en optimerad datahämtning.)
+1. **Tekniskt genombrott:** Vilken del av Next.js/TypeScript/React var svårast att greppa i början, men som du nu känner dig mer bekväm med?
+2. **Största utmaningen:** Vilket problem tog längst tid/var svårast att lösa att lösa, och hur löste du det till slut?
+3. **Bäst fungerande:** Vilken kod/lösning känner du dig mest nöjd med, och varför? (T.ex. ett elegant sätt att hantera state eller en optimerad datahämtning.)
 
 ---
 
