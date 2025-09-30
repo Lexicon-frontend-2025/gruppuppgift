@@ -154,7 +154,7 @@ Detta avsnitt ska skrivas individuellt av varje gruppmedlem i README-filen. Syft
 Detta skickar ni i ett privat meddelande till oss lärare.
 
  1. Lärdomar och Utmaningar
-Reflektera över det som var mest utmanande, spännande eller lärorikt under projektet.
+- Reflektera över det som var mest utmanande, spännande eller lärorikt under projektet.
 
 * **Tekniskt genombrott:** Vilken del av Next.js/TypeScript/React var svårast att greppa i början, men som du nu känner dig mer bekväm med?
 
