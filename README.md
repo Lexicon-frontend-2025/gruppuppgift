@@ -114,7 +114,7 @@ För att underlätta samarbetet och säkerställa att ni hela tiden rör er fram
 
   -----
 
-### Reflektion
+### Reflektion, del 1
 Detta görs individuellt. 
 
 Detta avsnitt ska skrivas individuellt av varje gruppmedlem i README-filen. Syftet är att du reflekterar över ditt bidrag, hur grupparbetet fungerade, samt de tekniska utmaningar du mötte och lärde dig av. Håll dig gärna kortfattad.
@@ -123,17 +123,8 @@ Detta avsnitt ska skrivas individuellt av varje gruppmedlem i README-filen. Syft
 * **Beskriv kortfattat vad ditt primära bidrag till projektet var**. Nämn de viktigaste funktionaliteterna eller sidorna du ansvarade för (t.ex. "Ansvarade för att sätta upp den dynamiska /products/[id]-routen och hämta detaljdata på servern" eller "Implementerade sökfunktionen med useSearchParams i en Client Component").
 
 * **Vilka tekniker eller komponenter jobbade du mest med** (t.ex. Server Actions, fetch i Server Components, TypeScript-typning, etc.)?
-
-2. Lärdomar och Utmaningar
-Reflektera över det som var mest utmanande, spännande eller lärorikt under projektet.
-
-* **Tekniskt genombrott:** Vilken del av Next.js/TypeScript/React var svårast att greppa i början, men som du nu känner dig mer bekväm med?
-
-* **Största utmaningen:** Vilket problem tog längst tid att lösa, och hur löste du det?
-
-* **Bäst fungerande:** Vilken kod/lösning känner du dig mest nöjd med, och varför? (T.ex. ett elegant sätt att hantera state eller en optimerad datahämtning.)
  
-3. Förbättringar och Framtida Fokus
+2. Förbättringar och Framtida Fokus
 Titta tillbaka på både koden och samarbetsprocessen och föreslå förbättringar.
 
 * **Projektförbättring:** Om du fick en vecka till på projektet, vilken del skulle du prioritera att förbättra eller lägga till? (T.ex. "Skulle refaktorera all styling till att använda CSS-moduler mer konsekvent" eller "Skulle implementera riktig state-hantering för varukorgen.")
@@ -141,6 +132,20 @@ Titta tillbaka på både koden och samarbetsprocessen och föreslå förbättrin
 * **Agilt samarbete:** Vad skulle ni i gruppen kunna göra annorlunda i nästa sprint för att samarbeta mer effektivt (t.ex. oftare kodgranskning, tydligare uppdelning av uppgifter, eller bättre uppföljning i morgonmötena)?
 
   ---
+
+###Reflektion, del 2
+Detta skickar ni i ett privat meddelande till oss lärare
+
+ 1. Lärdomar och Utmaningar
+Reflektera över det som var mest utmanande, spännande eller lärorikt under projektet.
+
+* **Tekniskt genombrott:** Vilken del av Next.js/TypeScript/React var svårast att greppa i början, men som du nu känner dig mer bekväm med?
+
+* **Största utmaningen:** Vilket problem tog längst tid att lösa, och hur löste du det?
+
+* **Bäst fungerande:** Vilken kod/lösning känner du dig mest nöjd med, och varför? (T.ex. ett elegant sätt att hantera state eller en optimerad datahämtning.)
+
+---
 
 ### **Redovisning**
 
