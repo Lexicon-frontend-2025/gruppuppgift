@@ -110,6 +110,7 @@ För att underlätta samarbetet och säkerställa att ni hela tiden rör er fram
   * Se också till att **optimera** med t ex generateStaticParams, lämplig metadata och suspense/loading.tsx.
   * Se över hela applikationens **responsivitet** och **design** för en sista puts.
   * Kontrollera **tillgängligheten** med WAVE eller dylikt
+  * Skriv readme tillsammans efter mall - [Ex på Readme](https://github.com/Lexicon-frontend-2025/my_readme/blob/main/README.md)
   * Redovisning/presentation av projektet
   * Reflektion
 
@@ -133,8 +134,6 @@ Ni kommer bli tilldelade tvärgrupper där ni ger en demonstration av er app. In
 
 ### Reflektion, del 1
 Detta görs individuellt i syfte att göra det tydligt i er portfolio vad som var din del i arbetet. 
-
-[Ex på Readme](https://github.com/Lexicon-frontend-2025/my_readme/blob/main/README.md)
 
 Detta avsnitt ska skrivas individuellt av varje gruppmedlem i README-filen. Syftet är att du reflekterar över ditt bidrag, hur grupparbetet fungerade, samt de tekniska utmaningar du mötte och lärde dig av. Håll dig gärna kortfattad.
 
