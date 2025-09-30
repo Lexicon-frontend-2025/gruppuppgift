@@ -133,21 +133,16 @@ Ni kommer bli tilldelade tvärgrupper där ni ger en demonstration av er app. In
 ---
 
 ### Reflektion, del 1
-Detta görs individuellt i syfte att göra det tydligt i er portfolio vad som var din del i arbetet. 
+Detta görs individuellt i syfte att göra det tydligt i er portfolio vad som var din del i arbetet. Tänk på att detta ska vara för att underlätta för potentiella arbetsgivare att få en bild av dina kunskaper inom projektet.
 
-Detta avsnitt ska skrivas individuellt av varje gruppmedlem i README-filen. Syftet är att du reflekterar över ditt bidrag, hur grupparbetet fungerade, samt de tekniska utmaningar du mötte och lärde dig av. Håll dig gärna kortfattad.
+1. **Egen Fork/clone**
+* Börja med att göra en fork eller klona ert gemensamma repo till din egen GitHub. Sedan bygger ni på er readme med individuell reflektion enligt nedan. 
 
-1. Bidrag till projektet
-* **Beskriv kortfattat vad ditt primära bidrag till projektet var**. Nämn de viktigaste funktionaliteterna eller sidorna du ansvarade för (t.ex. "Ansvarade för att sätta upp den dynamiska /products/[id]-routen och hämta detaljdata på servern" eller "Implementerade sökfunktionen med useSearchParams i en Client Component").
-
-* **Vilka tekniker eller komponenter jobbade du mest med** (t.ex. Server Actions, fetch i Server Components, TypeScript-typning, etc.)?
+3. **Ditt bidrag till projektet**
+* Beskriv kortfattat vad ditt primära bidrag till projektet var. Nämn de viktigaste funktionaliteterna eller sidorna du ansvarade för (t.ex. "Ansvarade för att sätta upp den dynamiska /products/[id]-routen och hämta detaljdata på servern" eller "Implementerade sökfunktionen med useSearchParams i en Client Component"). Samt vilka tekniker eller komponenter du använde i detta (t.ex. Server Actions, fetch i Server Components, Types/Interfaces, etc).
  
-2. Förbättringar och Framtida Fokus
-- Titta tillbaka på både koden och samarbetsprocessen och föreslå förbättringar.
-
-* **Projektförbättring:** Om skulle fortsätta på projektet, vilken del skulle du prioritera att förbättra eller lägga till? (T.ex. "Skulle refaktorera all styling till att använda CSS-moduler mer konsekvent" eller "Skulle implementera riktig state-hantering för varukorgen.")
-
-* **Agilt samarbete:** Vad skulle ni i gruppen kunna göra annorlunda i nästa sprint för att samarbeta mer effektivt (t.ex. oftare kodgranskning, tydligare uppdelning av uppgifter, eller bättre uppföljning i morgonmötena)?
+2. **Utvecklingsmöjligheter**
+* Om skulle fortsätta på projektet, vilken del skulle du prioritera att förbättra eller lägga till? (T.ex. "Skulle refaktorera all styling till att använda CSS-moduler mer konsekvent" eller "Skulle implementera riktig state-hantering för varukorgen.")
 
   ---
 
