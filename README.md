@@ -142,7 +142,7 @@ Detta avsnitt ska skrivas individuellt av varje gruppmedlem i README-filen. Syft
 * **Vilka tekniker eller komponenter jobbade du mest med** (t.ex. Server Actions, fetch i Server Components, TypeScript-typning, etc.)?
  
 2. Förbättringar och Framtida Fokus
-Titta tillbaka på både koden och samarbetsprocessen och föreslå förbättringar.
+- Titta tillbaka på både koden och samarbetsprocessen och föreslå förbättringar.
 
 * **Projektförbättring:** Om skulle fortsätta på projektet, vilken del skulle du prioritera att förbättra eller lägga till? (T.ex. "Skulle refaktorera all styling till att använda CSS-moduler mer konsekvent" eller "Skulle implementera riktig state-hantering för varukorgen.")
 
