@@ -128,7 +128,7 @@ Ni kommer bli tilldelade tvärgrupper där ni ger en demonstration av er app. In
 4. Beskriv hur ni i gruppen löst det, men visa inte kod, berätta istället med ord/tekniska termen så gott ni kan. Använd ord som "client components", "searchParams" osv som vi jobbat med.
 5. Gruppens medlemmar får också möjlighet att ställa frågor på ett sätt så alla förstår hur du tänkt. Ingen kritik eller förslag till andra lösningar här utan bara klargörande frågor.
 6. När allt är tydligt och klart ges möjlighet för alla i gruppen att ge kort, positiv och konstruktiv feedback - om man vill. Det kan vara att ni tyckte det var en intressant lösning med fetch eller att det var snyggt gjort med hur responsiv menyn var osv. Försök att vara mer än bara "snyggt", "bra" då det ofta mest bara blir oklart.
-7. Ta sedan en kort runda där ni säger något som ni tyckte var utmanande/spännande/intressant i koden när ni arbetade med den (alltså inte i uppgiften/API i sig utan enbart tekniskt).
+7. Ta sedan en kort runda där ni säger något som ni tyckte var utmanande/spännande/intressant i koden när ni arbetade med den (försök vara konstruktiva och positiva här).
    
 ---
 
